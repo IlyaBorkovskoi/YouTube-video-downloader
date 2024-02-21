@@ -45,13 +45,13 @@ def Exit():
 lb=Label(root,text="ЗАГРУЗКА ВИДЕО С YouTube",font=('Arial,15,bold'),bg='#D3D3D3')
 lb.pack(pady=15)
 # пояснительный текст для поля с адресом
-lb1=Label(root,text="Ссылка на видео :",font=('Arial,15,bold'),bg='#D3D3D3')
-lb1.place(x=10,y=80)
+lb1=Label(root,text="Введите ссылку на видео :",font=('Arial,15,bold'),bg='#D3D3D3')
+lb1.place(x=5,y=80)
 
 # поле ввода адреса видео
 link1=StringVar()
 En1=Entry(root,textvariable=link1,font=('Arial,15,bold'))
-En1.place(x=230,y=80)
+En1.place(x=250,y=80)
 
 # кнопка скачивания
 btn1=Button(root,text="Скачать",font=('Arial,10,bold'),bd=4,command=download)
