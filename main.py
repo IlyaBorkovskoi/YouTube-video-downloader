@@ -50,7 +50,7 @@ lb1.place(x=5,y=80)
 
 # поле ввода адреса видео
 link1=StringVar()
-En1=Entry(root,textvariable=link1,font=('Arial,15,bold'))
+En1=Entry(root,textvariable=link1,font=('Arial,16,bold'))
 En1.place(x=250,y=80)
 
 # кнопка скачивания
