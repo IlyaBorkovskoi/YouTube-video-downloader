@@ -42,10 +42,10 @@ def Exit():
     root.destroy()
 
 # заголовок формы
-lb=Label(root,text="YouTube",font=('Arial,15,bold'),bg='#D3D3D3')
+lb=Label(root,text="YouTube",font=('Arial,16,bold'),bg='#D3D3D3')
 lb.pack(pady=15)
 # пояснительный текст для поля с адресом
-lb1=Label(root,text="Введите ссылку на видео :",font=('Arial,15,bold'),bg='#D3D3D3')
+lb1=Label(root,text="Введите ссылку на видео :",font=('Arial,16,bold'),bg='#D3D3D3')
 lb1.place(x=5,y=80)
 
 # поле ввода адреса видео
